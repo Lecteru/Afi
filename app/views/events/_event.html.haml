@@ -1,0 +1,7 @@
+=div_for event do
+  .name
+    %b
+      =event.name
+  .lead
+    %small
+      =truncate event.lead, :length => 50

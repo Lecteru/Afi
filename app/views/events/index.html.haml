@@ -1,0 +1,14 @@
+%h1 Добро пожаловать на нашу супер-афишу!
+
+#today
+  %h2 Сегодня
+
+  .events
+    =render :partial => 'event', :collection => @events
+  .clr
+#in-perspective
+  %h2 В ближайшее время
+  
+  .events
+    =render :partial => 'event', :collection => @events
+  .clr
