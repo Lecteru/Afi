@@ -1,5 +1,6 @@
 class EventsController < ApplicationController
   def new
+    #TODO Нужно создать вьюхи и определиться с механизмом аутентификации пользователя - какой плагин взять - есть devise, restful authentication, другие решения - можно посмотреть на railscasts.com
     @event = Event.new
   end
   
